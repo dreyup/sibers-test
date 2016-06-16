@@ -1,0 +1,120 @@
+.js-link {
+  text-decoration: none;
+  border-bottom: dotted 1px;
+}
+.js-link:hover {
+  text-decoration: none;
+  border-color: transparent;
+}
+.js-link:active,
+.js-link:focus {
+  text-decoration: none;
+}
+.self-domain {
+  font-weight: bold;
+  color: #f00;
+}
+.actions-column {
+  width: 50px;
+}
+.actions-column.w75 {
+  width: 75px;
+}
+.actions-column.w100 {
+  width: 100px;
+}
+.request-list .checkbox-column {
+  text-align: center;
+}
+.request-list .checkbox-column.block {
+  background: url("../images/loader.gif") 50% 50% no-repeat;
+}
+.request-list .checkbox-column.block input {
+  display: none;
+}
+.request-list .queue_block input {
+  display: none;
+}
+.request-list .table {
+  margin-bottom: 0;
+}
+.request-list .not-found-link {
+  color: #f00;
+}
+.request-list .not-found-link:hover {
+  text-decoration: none;
+}
+.request-list .panel-title {
+  display: inline-block;
+  margin-right: 7px;
+}
+.request-list .panel-heading .glyphicon {
+  margin-right: 3px;
+}
+.request-list .title-column {
+  width: 30%;
+}
+.request-list .ws-column {
+  width: 5px;
+}
+.js-link {
+  cursor: pointer;
+}
+.js-link .glyphicon {
+  margin-right: 5px;
+}
+.buttons-wrapper .btn {
+  margin-right: 5px;
+}
+.buttons-wrapper .pull-right .btn {
+  margin-left: 5px;
+  margin-right: auto;
+}
+.position-date {
+  font-size: .8em;
+  font-style: italic;
+}
+.white-popup {
+  background: #FFF;
+  padding: 20px 30px;
+  text-align: left;
+  max-width: 650px;
+  margin: 40px auto;
+  position: relative;
+}
+.position-info .positive {
+  color: #44cc4d;
+  font-weight: bold;
+}
+.position-info .negative {
+  color: red;
+}
+.queue-info {
+  position: fixed;
+  top: 75px;
+  right: 25px;
+}
+.queue-info .alert {
+  font-weight: bold;
+}
+.queue-info .alert i {
+  margin-right: 5px;
+}
+.to-search-engine:hover,
+.to-search-engine:active {
+  text-decoration: none;
+}
+.width-1 {
+  width: 1%;
+}
+.checkbox-column {
+  width: 30px;
+}
+.form-group.required label:after {
+  content: '*';
+  color: #f00;
+  margin: 0 5px;
+}
+.comments {
+  padding-left: 40px;
+}
